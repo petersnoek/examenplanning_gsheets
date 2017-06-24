@@ -77,7 +77,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'nl',
 
     /*
     |--------------------------------------------------------------------------
@@ -176,6 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Backpack\Base\BaseServiceProvider::class,
+        Backpack\CRUD\CrudServiceProvider::class,
 
     ],
 
