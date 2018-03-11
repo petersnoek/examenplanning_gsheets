@@ -179,6 +179,11 @@ return [
         Backpack\Base\BaseServiceProvider::class,
         Backpack\CRUD\CrudServiceProvider::class,
 
+        /*
+         * Added by Peter
+         */
+        Logger\Laravel\Provider\MonologMysqlHandlerServiceProvider::class,
+
     ],
 
     /*
